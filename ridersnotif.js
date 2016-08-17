@@ -13,16 +13,13 @@ pubnub.publish(
         message: { 
             "pn_gcm": {
                 "data" : {
-                    "riders" : "hello robert"
+                    "riders" : "hello my message is sending"
                 }
             }            
         },
-        channel: 'available-riders',
+        channel: 'rider.de2b0e08-2bad-447f-a695-3554b063ae92',
         sendByPost: false, // true to send via post
         storeInHistory: false, //override default storage options
-        meta: { 
-            "cool": "meta"
-        }   // publish extra meta with the request
     }, 
     function (status, response) {
         if (status.error) {
