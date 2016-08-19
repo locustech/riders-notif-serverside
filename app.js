@@ -4,7 +4,6 @@ PubNub = require('pubnub');
 var pubnub = new PubNub({
     publishKey: 'pub-c-3cc11672-df14-4156-a631-24f9511fb645',
     subscribeKey: 'sub-c-9943bb22-fa5e-11e5-8180-0619f8945a4f',
-    device: 'c42QBxwmHjU:APA91bHOPATEIT6aVh6EQ-QsC2Pd4DGHL3MK5UAksoMPGIqgGzY-1DlwetY6ciFOEtluI6OOjjE4eeYp31BzMp_lsRpMCcj930bZ7Qa40b893avjDhnWGo_SiRl02V6s5QSg8gcljbdh'
 })
 
 
